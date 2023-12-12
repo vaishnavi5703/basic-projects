@@ -1,0 +1,109 @@
+/* .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(136, 126, 126, 0.319);
+    
+}
+.wrapper{
+    height:fit-content;
+    
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1pc;
+}
+
+.box{
+    width: 15pc;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin: 1pc;
+    
+}
+.disply{
+    width: 15pc;
+    height: 3pc;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-left: 0.7pc;
+}
+button{
+    height: 3pc;
+    width: 3pc;
+    border-radius: 1rem;
+    margin-bottom: 0.6pc;
+    background-color:rgba(236, 230, 230, 0.436);
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px gray ,-1px -1px 5px gray;
+} */
+
+
+*{
+    margin: 0;padding: 0;
+}
+h1{
+    margin-bottom: 2pc;
+    font-size: 5rem;
+    color: rgb(134, 9, 100);
+    text-shadow:2px 2px 3px rgb(58, 4, 44);
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+.container {
+         /* border: 1px solid black; */
+         /* background: rgb(52, 5, 39); */
+         width: fit-content;
+         box-shadow: 1px 1px 10px gray;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 20pc;
+    width: 20pc;
+    grid-gap: 0.6pc;
+    padding: 2pc;
+    
+}
+button{
+    font-size: 2rem;
+    border-radius: 10%;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: inset 1px 1px 10px rgba(128, 128, 128, 0.236), 5px 5px 10px rgba(128, 128, 128, 0.378);
+}
+button:hover{
+    box-shadow:  5px 5px 10px gray, inset 5px 5px 10px gray;
+}
+.show{
+    border: 1px solid rgba(255, 255, 255, 0);
+box-shadow: 5px 5px 10px gray, inset 5px 5px 10px gray;
+    border-radius: 1rem;
+    width: 95%;
+    height: 5pc;
+    margin: 1pc 0.5pc 1pc 0.5pc;
+}
+.operator{
+    color: blue;
+}
+.operatora{
+
+
+    color: red;
+    font-size: 2rem;
+}
+.operatoreq{
+    color: rgb(100, 158, 46);
+    font-size: 2rem;
+}
